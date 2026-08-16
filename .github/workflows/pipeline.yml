@@ -10,7 +10,7 @@ on:
       - main
 
 jobs:
-hello-ci:
+  hello-ci:
     name: Hello CI
     runs-on: ubuntu-latest
 
