@@ -1,0 +1,19 @@
+{
+  "name": "ci-cd-labs",
+  "version": "1.0.0",
+  "description": "Repositorio de prácticas del módulo de CI/CD.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^30.4.2",
+    "jest-junit": "^17.0.0"
+  },
+  "jest": {
+    "coverageReporters": ["text", "lcov", "html"]
+  }
+}
