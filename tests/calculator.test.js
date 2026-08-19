@@ -2,7 +2,7 @@ const { add, subtract, multiply, divide } = require("../app/calculator");
 
 describe("Calculator", () => {
   test("add: 2 + 3 should be 5", () => {
-    expect(add(2, 3)).toBe(99); // valor incorrecto intencional
+    expect(add(2, 3)).toBe(5);
   });
 
   test("subtract: 10 - 4 should be 6", () => {
